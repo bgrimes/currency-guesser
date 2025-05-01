@@ -164,7 +164,7 @@ function App() {
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Vaporwave background elements */}
+      {/* Vaporwave background elements test */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 dark:from-indigo-950 dark:via-purple-950 dark:to-pink-950 opacity-70" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.2),transparent)] dark:bg-[radial-gradient(circle_at_50%_50%,rgba(0,0,0,0.1),transparent)]" />
