@@ -249,7 +249,7 @@ function App() {
                   <div className="text-sm">
                     {feedback}
                     {showAnswer && (feedback.includes("Incorrect") || feedback.includes("Skipped")) && (
-                      <p className="mt-1">The correct answer is: <strong>{correctAnswer}</strong></p>
+                      <div className="mt-1">The correct answer is:<br /><strong>{correctAnswer}</strong></div>
                     )}
                   </div>
                 </div>
